@@ -1,0 +1,112 @@
+.single-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  column-gap: 1.25rem;
+  align-items: center;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  border: 1px solid var(--glass-border);
+  border-left: 5px solid var(--primary);
+  margin-bottom: 1.25rem;
+  transition: var(--transition);
+}
+
+.single-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(8px);
+  border-color: var(--primary);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.single-item p {
+  text-transform: capitalize;
+  font-size: 1.15rem;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0;
+  transition: var(--transition);
+}
+
+.due-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+.due-date.overdue {
+  color: #ff4d4d;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(255, 77, 77, 0.3);
+}
+
+/* Custom Checkbox Styling */
+.single-item input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid var(--glass-border);
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  transition: var(--transition);
+  background: rgba(15, 23, 42, 0.8);
+}
+
+.single-item input[type="checkbox"]:checked {
+  background: var(--primary);
+  border-color: var(--primary);
+  box-shadow: var(--glow);
+}
+
+.single-item input[type="checkbox"]:checked::after {
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: white;
+  font-size: 0.85rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.single-item input[type="checkbox"]:checked + p {
+  text-decoration: line-through;
+  opacity: 0.4;
+  filter: grayscale(1);
+}
+
+.single-item .btn {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border: 1px solid var(--glass-border);
+  border-radius: 0.75rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+  transition: var(--transition);
+}
+
+.single-item .btn:hover {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: var(--glow);
+}
+
+.single-item .remove-btn:hover {
+  background: var(--secondary);
+  color: #fff;
+  border-color: var(--secondary);
+  box-shadow: 0 0 20px rgba(244, 63, 94, 0.5);
+}
