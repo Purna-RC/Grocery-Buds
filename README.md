@@ -1,8 +1,5 @@
 # Grocery Bud 🛒
 
-[![GitLab](https://img.shields.io/badge/GitLab-Repository-orange?logo=gitlab)](https://gitlab.com/sarshijkarn/grocery-bud-nce.git)
-[![Vanilla JS](https://img.shields.io/badge/JavaScript-Vanilla-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![CSS3](https://img.shields.io/badge/CSS-Vibrant-blue?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 **Grocery Bud** is a high-performance, visually stunning grocery list manager built with a "Cyber-Premium" design philosophy. It combines the simplicity of Vanilla JavaScript with the power of modern CSS to deliver a premium user experience.
 
@@ -47,12 +44,8 @@ _Experience the vibrant, glassmorphic interface designed for clarity and style._
 
 ---
 
-## 🔗 Project Link
 
-Explore the source code on [GitLab](https://gitlab.com/sarshijkarn/grocery-bud-nce.git).
-
----
 
 ### Credits
 
-Built with ❤️ by **[SARSHIJ KARN](https://sarshijkarn.com.np)**
+Built with ❤️ by **[Purna Bahadur Rana]**
