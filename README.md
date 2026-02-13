@@ -35,12 +35,7 @@ _Experience the vibrant, glassmorphic interface designed for clarity and style._
 ---
 
 ## 🚀 Getting Started
-
-1. **Clone the repo**:
-   ```bash
-   git clone https://gitlab.com/sarshijkarn/grocery-bud-nce.git
-   ```
-2. **Open the App**: Simply launch `index.html` in any modern web browser.
+1. **Open the App**: Simply launch `index.html` in any modern web browser.
 
 ---
 
